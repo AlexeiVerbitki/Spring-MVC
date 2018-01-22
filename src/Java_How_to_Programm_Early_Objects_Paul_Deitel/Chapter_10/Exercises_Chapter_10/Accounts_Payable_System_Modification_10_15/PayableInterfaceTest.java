@@ -14,7 +14,7 @@ public class PayableInterfaceTest
       payableObjects[0] = new SalariedEmployee("Serghey","Sharkov", "666-10-0503", 2,2,1970,500);
       payableObjects[1] = new BasePlusCommissionEmployee("Olari","Sergiu", "111-222-3333", 5000,0.1,1000,1,1,1980);
       payableObjects[2] = new CommissionEmployee("John", "Smith", "111-11-1111", 12000,0.30,10,12,1987);
-      payableObjects[3] = new HourlyEmployee("Lisa", "Barnes", "888-88-8888", 10,178, 01,18,1988);
+//      payableObjects[3] = new HourlyEmployee("Lisa", "Barnes", "888-88-8888", 10,178, 01,18,1988);
 
       payableObjects[4] = new Invoice("01234", "seat", 2, 375.00);
       payableObjects[5] = new Invoice("56789", "tire", 4, 79.95);
@@ -69,4 +69,5 @@ public class PayableInterfaceTest
       }
    } // end main
 } // end class PayableInterfaceTest
+
 
