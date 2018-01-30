@@ -55,7 +55,7 @@ public abstract class ThreeDimentionalShape extends Shape implements ShapeInterf
 
     @Override
     public String toString() {
-        return String.format("\nThe object is a %s which is a %s%nThe volume = %.2f", this.getClass().getName(),getClass().getSuperclass().getName(),getVolume());
+        return String.format("\nThe object is a %s which is a %s%nThe volume = %.2f", this.getClass().getSimpleName(),getClass().getSuperclass().getSimpleName(),getVolume());
     }
 
 } // end TwoDimentionalShape

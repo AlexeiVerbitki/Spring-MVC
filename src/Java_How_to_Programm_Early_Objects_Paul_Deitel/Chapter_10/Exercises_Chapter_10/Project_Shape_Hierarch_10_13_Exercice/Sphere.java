@@ -13,7 +13,7 @@ public class Sphere extends ThreeDimentionalShape {
     @Override
     public double getVolume() {
         Circle circle = new Circle(getHeight());
-        return circle.getArea() * getHeight()*4/3;
+        return circle.getArea() * getHeight()*4.0/3;
 //        return Math.pow(getHeight(),3)*4/3*Math.PI;
     }
 

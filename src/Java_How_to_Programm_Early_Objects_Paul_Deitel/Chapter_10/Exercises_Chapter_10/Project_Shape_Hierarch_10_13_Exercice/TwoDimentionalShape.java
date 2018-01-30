@@ -41,6 +41,6 @@ public abstract class TwoDimentionalShape extends Shape implements ShapeInterfac
 
     @Override
     public String toString() {
-        return String.format("\nThe object is a %s which is a %s%nThe area = %.2f", this.getClass().getName(),getClass().getSuperclass().getName(),getArea());
+        return String.format("\nThe object is a %s which is a %s%nThe area = %.2f", this.getClass().getSimpleName(),getClass().getSuperclass().getSimpleName(),getArea());
     }
 } // end TwoDimentionalShape
