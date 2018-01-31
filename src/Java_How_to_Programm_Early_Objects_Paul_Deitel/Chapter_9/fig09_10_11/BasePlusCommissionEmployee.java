@@ -3,7 +3,7 @@ package Java_How_to_Programm_Early_Objects_Paul_Deitel.Chapter_9.fig09_10_11;// 
 // and accesses the superclass?s private data via inherited 
 // public methods.
 
-import Java_How_to_Programm_Early_Objects_Paul_Deitel.Fig10_04_09.CommissionEmployee;
+import Java_How_to_Programm_Early_Objects_Paul_Deitel.Chapter_10.Fig10_04_09.CommissionEmployee;
 
 public class BasePlusCommissionEmployee extends CommissionEmployee
 {

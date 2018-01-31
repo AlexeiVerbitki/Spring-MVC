@@ -1,4 +1,4 @@
-package Java_How_to_Programm_Early_Objects_Paul_Deitel.Fig10_04_09;
+package Java_How_to_Programm_Early_Objects_Paul_Deitel.Chapter_10.Fig10_04_09;
 // Fig. 10.5: SalariedEmployee.java // SalariedEmployee concrete class extends abstract class Employee.
 
 public class SalariedEmployee extends Employee 
