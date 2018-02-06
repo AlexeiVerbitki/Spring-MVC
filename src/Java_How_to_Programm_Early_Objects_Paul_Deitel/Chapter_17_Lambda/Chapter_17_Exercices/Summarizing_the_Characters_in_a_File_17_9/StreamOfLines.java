@@ -1,4 +1,4 @@
-package Java_How_to_Programm_Early_Objects_Paul_Deitel.Chapter_17_Lambda.Exercises_17.Summarizing_the_Characters_in_a_File_17_9;// Fig. 17.17: StreamOfLines.java
+package Java_How_to_Programm_Early_Objects_Paul_Deitel.Chapter_17_Lambda.Chapter_17_Exercices.Summarizing_the_Characters_in_a_File_17_9;// Fig. 17.17: StreamOfLines.java
 /*
 17.9 (Summarizing the Characters in a File) Modify the program of Fig. 17.17 to summarize
 the number of occurrences of every character in the file.
