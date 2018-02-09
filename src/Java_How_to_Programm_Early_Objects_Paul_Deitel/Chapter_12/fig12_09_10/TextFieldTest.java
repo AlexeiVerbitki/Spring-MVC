@@ -6,10 +6,14 @@ public class TextFieldTest
 {
    public static void main(String[] args)
    { 
-      TextFieldFrame textFieldFrame = new TextFieldFrame(); 
+//      TextFieldFrame textFieldFrame = new TextFieldFrame();
+//      textFieldFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//      textFieldFrame.setSize(550, 200);
+//      textFieldFrame.setVisible(true);
+      JtextField_Myself textFieldFrame = new JtextField_Myself();
       textFieldFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       textFieldFrame.setSize(550, 200);
-      textFieldFrame.setVisible(true); 
+      textFieldFrame.setVisible(true);
    } 
 } // end class TextFieldTest
 

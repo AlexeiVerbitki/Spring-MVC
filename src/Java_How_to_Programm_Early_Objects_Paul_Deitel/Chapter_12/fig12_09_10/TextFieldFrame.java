@@ -23,7 +23,7 @@ public class TextFieldFrame extends JFrame
       setLayout(new FlowLayout());
 
       // construct textfield with 10 columns
-      textField1 = new JTextField(10); 
+      textField1 = new JTextField(10);
       add(textField1); // add textField1 to JFrame
 
       // construct textfield with default text
@@ -48,13 +48,13 @@ public class TextFieldFrame extends JFrame
    } // end TextFieldFrame constructor
 
    // private inner class for event handling
-   private class TextFieldHandler implements ActionListener 
+   private class TextFieldHandler implements ActionListener
    {
       // process textfield events
       @Override
       public void actionPerformed(ActionEvent event)
       {
-         String string = ""; 
+         String string = "";
          // user pressed Enter in JTextField textField1
          if (event.getSource() == textField1)
             string = String.format("textField1: %s",
@@ -67,17 +67,17 @@ public class TextFieldFrame extends JFrame
 
          // user pressed Enter in JTextField textField3
          else if (event.getSource() == textField3)
-            string = String.format("textField3: %s", 
+            string = String.format("textField3: %s",
                event.getActionCommand());
 
          // user pressed Enter in JTextField passwordField
          else if (event.getSource() == passwordField)
-            string = String.format("passwordField: %s", 
+            string = String.format("passwordField: %s",
                event.getActionCommand());
 
          // display JTextField content
-         JOptionPane.showMessageDialog(null, string); 
-      } 
+         JOptionPane.showMessageDialog(null, string);
+      }
    } // end private inner class TextFieldHandler
 } // end class TextFieldFrame
 
