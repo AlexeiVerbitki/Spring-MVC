@@ -1,6 +1,4 @@
-package Udemy_java_the_complete_java_developer_course;
-
-import Java_How_to_Programm_Early_Objects_Paul_Deitel.Chapter_7_Arrays.ArrayListCollection;
+package Udemy_java_the_complete_java_developer_course._11_Generics;
 
 import java.util.ArrayList;
 
