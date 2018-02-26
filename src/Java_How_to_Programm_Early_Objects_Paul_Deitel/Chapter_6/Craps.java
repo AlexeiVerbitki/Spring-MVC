@@ -59,9 +59,9 @@ public class Craps
 
         // display won or lost message
         if (gameStatus == Status.WON)
-            System.out.println("Player wins");
+            System.out.println("Team wins");
         else
-            System.out.println("Player loses");
+            System.out.println("Team loses");
     }
 
     // roll dice, calculate sum and display results
@@ -74,7 +74,7 @@ public class Craps
         int sum = die1 + die2; // sum of die values
 
         // display results of this roll
-        System.out.printf("Player rolled %d + %d = %d%n",
+        System.out.printf("Team rolled %d + %d = %d%n",
                 die1, die2, sum);
 
         return sum;

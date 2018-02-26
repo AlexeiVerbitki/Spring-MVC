@@ -80,9 +80,9 @@ public class Exercise_7_18 {
 
             // display won or lost message
             if (gameStatus == Status.WON)
-                System.out.printf("Player wins in round %d \n--------------\n", count);
+                System.out.printf("Team wins in round %d \n--------------\n", count);
             else
-                System.out.printf("Player loses in round %d \n--------------\n", count);
+                System.out.printf("Team loses in round %d \n--------------\n", count);
 
             gameLength[count] = throwsCount;
             throwsCount=0;
@@ -104,7 +104,7 @@ public class Exercise_7_18 {
         int sum = die1 + die2; // sum of die values
 
         // display results of this roll
-        System.out.printf("Player rolled %d + %d = %d%n",
+        System.out.printf("Team rolled %d + %d = %d%n",
                 die1, die2, sum);
 
 
