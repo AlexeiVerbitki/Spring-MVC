@@ -2,12 +2,12 @@ package Java_How_to_Programm_Early_Objects_Paul_Deitel.Chapter_10.Exercises_Chap
 
 import java.util.Scanner;
 
-public class Car implements CarbonFootprintInterface {
+public class Cra implements CarbonFootprintInterface {
     private double mpg;
     private double mileage;
     private double carbonFootprint;
 
-    public Car() {
+    public Cra() {
 
     }
 
