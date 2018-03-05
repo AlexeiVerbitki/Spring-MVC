@@ -10,7 +10,7 @@ public class Changing_a_PriorityQueue_Sort_Order_16_21 {
     public static void main(String[] args) {
 
         // Method 1: Creating a custom comparator
-        Comparator<Double> reversePriority = new Comparator<Double>() {
+        Comparator<Double> reversePriority = new Comparator<>() {
             @Override
             public int compare(Double o1, Double o2) {
                 return o2.compareTo(o1);
