@@ -1,11 +1,18 @@
+package annotationPackage;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class BaseballCoach implements Coach {
 
-	FortuneService fortuneService;
+	private FortuneService fortuneService;
 
+	
+//constructor
 	public BaseballCoach(FortuneService fortuneService) {
 		this.fortuneService = fortuneService;
 	}
 
+	//default constructor
 	public BaseballCoach() {
 	}
 

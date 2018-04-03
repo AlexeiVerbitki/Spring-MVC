@@ -8,10 +8,10 @@
 
 
 	
-	<!-- enable component scanning -->
+	<!-- enable component scanning --> 
 	
-	<context:component-scan base-package="spring-demo-annotation"/>
-	
+	<context:component-scan base-package="annotationPackage"/>
+	<context:property-placeholder location="classpath:fortune.properties"/> 
 	
 	
 	<!-- this is the old code -->
@@ -23,6 +23,7 @@
 	<bean id="myCoach" class="BaseballCoach"
 		scope="singleton">
 		<property name="fortuneService"  ref="myFortune" />
+	
 
 	</bean> -->
 

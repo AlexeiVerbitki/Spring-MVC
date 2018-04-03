@@ -1,3 +1,4 @@
+package annotationPackage;
 
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -8,8 +9,8 @@ public class AnnotationApp {
 
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("AnnotationContext.xml");
 		// create the object
-		Coach coach = context.getBean("myCoach", Coach.class);
-		Coach coach2 = context.getBean("myCoach", Coach.class);
+		Coach coach = context.getBean("wrestlingCoach", Coach.class);
+//		Coach coach2 = context.getBean("tennisCoach", Coach.class);
 
 		// verify if they are the same object
 //		if (coach == coach2) {
@@ -20,8 +21,8 @@ public class AnnotationApp {
 //		 use the object
 		 System.out.println(coach.getDailyWorkout());
 		 System.out.println(coach.getDailyFortune());
-
 		context.close();
+		
 	}
 
 }

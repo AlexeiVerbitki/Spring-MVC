@@ -1,3 +1,4 @@
+package annotationPackage;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class HelloSpringApp {
