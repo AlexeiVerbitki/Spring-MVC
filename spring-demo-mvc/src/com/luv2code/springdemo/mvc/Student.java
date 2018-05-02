@@ -11,7 +11,7 @@ public class Student {
 	int age;
 	String country;
 	String favoriteLanguage;
-	String operatingSystemsArray;
+	String[] operatingSystemsArray;
 	
 	Map<String,String> countryOptions = new LinkedHashMap<>();
 	Map<String,String> languageRadioButtons = new LinkedHashMap<>();
@@ -84,11 +84,11 @@ public class Student {
 		this.favoriteLanguage = favoriteLanguage;
 	}
 
-	public String getOperatingSystemsArray() {
+	public String[] getOperatingSystemsArray() {
 		return operatingSystemsArray;
 	}
 
-	public void setOperatingSystemsArray(String operatingSystemsArray) {
+	public void setOperatingSystemsArray(String[] operatingSystemsArray) {
 		this.operatingSystemsArray = operatingSystemsArray;
 	}
 
