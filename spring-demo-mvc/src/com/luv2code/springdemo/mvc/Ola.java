@@ -4,12 +4,21 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
+import org.hibernate.validator.constraints.NotBlank;
+
 public class Ola {
 
 	private String haveAnAccount;
 	private Map<String, String> haveAnAccountMap;
 	private String prefix;
 	private Map<String, String> prefixMap;
+//	@NotBlank(message="is a required field")
+	@NotNull(message="is required")
+	@Size(min=1, message="use at least 1 characters")
 	private String firstName;
 	private String middleName;
 	private String lastName;

@@ -1,6 +1,8 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <!DOCTYPE html>
 
+<style> .error{color:red}</style>
+
 <html>
 <head>
 <title>Step 1 OLA</title>
@@ -17,6 +19,8 @@ Prefix: <form:select path="prefix">
 		</form:select>
 		<br>
 First name: <form:input path="firstName" />
+			<form:errors path="firstName" cssClass="error"/>
+			
 		<br>
 Middle name: <form:input path="middleName" />
 		<br>
